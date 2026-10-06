@@ -118,7 +118,7 @@ MM_GROUPS = [
     ("Bestellen", [("/lachgas-tanks/2kg/", "Lachgastank 2KG"), ("/lachgas-tanks/4kg/", "Lachgastank 4KG"), ("/lachgas-tanks/10kg/", "Lachgastank 10KG"),
                    ("/service/bestellen-via-whatsapp/", "Zo werkt bestellen"), ("/service/betalen-bij-levering/", "Betalen bij levering"), ("/service/zakelijk-bestellen/", "Zakelijk bestellen")]),
     ("Regio's", [("/bezorggebied/west-brabant/", "West-Brabant"), ("/bezorggebied/midden-brabant/", "Midden-Brabant"), ("/bezorggebied/noordoost-brabant/", "Noordoost-Brabant"),
-                 ("/bezorggebied/zuidoost-brabant/", "Zuidoost-Brabant"), ("/service/bezorgtijden-per-regio/", "Bezorgtijden per regio")]),
+                 ("/bezorggebied/zuidoost-brabant/", "Zuidoost-Brabant"), ("/service/bezorgtijden-per-regio/", "Bezorgtijden")]),
     ("Informatie", [("/informatie/veiligheid-en-gezondheid/", "Veiligheid en gezondheid"), ("/informatie/regels-en-wetgeving/", "Regels en wetgeving"),
                     ("/informatie/eerste-keer-lachgas-bestellen/", "Voor het eerst bestellen"), ("/informatie/is-lachgas-legaal-in-nederland/", "Is lachgas legaal?")]),
     ("Service", [("/service/bezorgvoorwaarden/", "Bezorgvoorwaarden"), ("/service/bestelling-wijzigen-of-annuleren/", "Wijzigen of annuleren"),
@@ -131,7 +131,7 @@ def mobile_menu(path):
     tiles = "".join('<a class="mm-tile" href="%s"%s>%s%s</a>' % (h, cur(h), MM_ICON[i], esc(t)) for h, t, i in MM_TILES)
     groups = "".join('<div class="mm-group"><p class="mm-h">%s</p>%s</div>' % (esc(g), "".join('<a class="mm-link" href="%s"%s><span>%s</span>%s</a>' % (h, cur(h), esc(t), MM_ICON["chev"]) for h, t in items)) for g, items in MM_GROUPS)
     return ('<nav class="menu-panel" aria-label="Mobiel menu">'
-            '<div class="mm-status"><span class="mm-dot"></span><span><strong>24/7 bereikbaar via WhatsApp</strong><br>In de grote Brabantse steden meestal binnen 30 tot 45 minuten</span></div>'
+            '<div class="mm-status"><span class="mm-dot"></span><span><strong>24/7 bereikbaar via WhatsApp</strong><br>In de grote Brabantse steden meestal binnen 15 tot 25 minuten</span></div>'
             '<div class="mm-tiles">%s</div>'
             '<a class="mm-prod" href="/lachgas-tanks/2kg/"><img src="/assets/lachgastank-2kg-160.webp" width="56" height="56" alt="" loading="lazy" decoding="async"><span><strong>Lachgastank 2KG</strong><small>Verzegeld geleverd &middot; bekijk de tank</small></span></a>'
             '%s<div class="mm-foot"><a class="btn btn-wa" href="%s" target="_blank" rel="noopener">%s WhatsApp ons nu</a>'
@@ -140,7 +140,7 @@ def mobile_menu(path):
 
 
 def product_feature(heading="h3"):
-    facts = [("Inhoud", "2 kilo lachgas (N2O)"), ("Levering", "Verzegeld, aan de deur"), ("Levertijd", "Grote steden meestal 30 tot 45 min"), ("Betalen", "Contant of Tikkie bij levering")]
+    facts = [("Inhoud", "2 kilo lachgas (N2O)"), ("Levering", "Verzegeld, aan de deur"), ("Levertijd", "Grote steden meestal 15 tot 25 min"), ("Betalen", "Contant of Tikkie bij levering")]
     return ('<div class="pf"><div class="pf-img"><img src="/assets/lachgastank-2kg.webp" srcset="/assets/lachgastank-2kg-300.webp 300w, /assets/lachgastank-2kg.webp 480w" sizes="(min-width: 768px) 300px, 70vw" width="480" height="640" alt="Verzegelde lachgastank 2KG van Lachgas Brabant" loading="lazy" decoding="async"></div>'
             '<div><span class="badge">Uitgelicht</span><%s>Lachgastank 2KG</%s><p>Het compacte formaat voor een kleiner gezelschap. Je krijgt de tank verzegeld aan de deur, met de prijs vooraf bevestigd via WhatsApp.</p>'
             '<dl class="pf-facts">%s</dl><div class="pf-ctas"><a class="btn btn-dark" href="/lachgas-tanks/2kg/">Bekijk de 2KG</a><a class="btn btn-wa" href="%s" target="_blank" rel="noopener">%s Bestel via WhatsApp</a></div>'

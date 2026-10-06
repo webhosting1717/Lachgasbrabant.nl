@@ -42,13 +42,13 @@ FAQ_TOPICS = [
         'h1': 'Vragen over bezorgen',
         'lead': 'Hoe de bezorging in Noord-Brabant werkt: werkgebied, tijdvakken, wat je geleverd krijgt en wat er aan de deur van je wordt verwacht.',
         'intro': [
-            'Over de bezorging komen de meeste vragen binnen, en dat is logisch: je wilt weten of we bij jou komen, hoe lang het duurt en wat er aan de deur van je wordt verwacht. We bezorgen in heel Noord-Brabant, verdeeld over vier regio’s met elk een indicatieve levertijd. Op deze pagina leggen we uit hoe dat in de praktijk gaat, zonder beloftes die we niet kunnen nakomen.',
+            'Over de bezorging komen de meeste vragen binnen, en dat is logisch: je wilt weten of we bij jou komen, hoe lang het duurt en wat er aan de deur van je wordt verwacht. We bezorgen in heel Noord-Brabant, verdeeld over vier regio’s, en overal is de levertijd meestal 15 tot 25 minuten. Op deze pagina leggen we uit hoe dat in de praktijk gaat, zonder beloftes die we niet kunnen nakomen.',
         ],
         'items': [
             ['Waar bezorgen jullie precies?',
-             'In heel Noord-Brabant, van Bergen op Zoom tot Boxmeer en van Werkendam tot Budel. We hebben het gebied verdeeld in vier regio’s met elk een eigen overzicht van plaatsen en levertijden. Op de pagina <a href="/bezorggebied/">bezorggebied</a> zie je of jouw plaats erbij staat; staat die er niet, vraag het ons dan gewoon.'],
+             'In heel Noord-Brabant, van Bergen op Zoom tot Boxmeer en van Werkendam tot Budel. We hebben het gebied verdeeld in vier regio’s met elk een eigen overzicht van plaatsen. Op de pagina <a href="/bezorggebied/">bezorggebied</a> zie je of jouw plaats erbij staat; staat die er niet, vraag het ons dan gewoon.'],
             ['Hoe lang duurt het voordat de tank er is?',
-             'Dat hangt af van waar je woont en van de drukte op dat moment. In de grote steden en hun buurgemeenten is het meestal binnen 30 tot 45 minuten, in middelgrote kernen meestal binnen 45 tot 60 minuten en in kleinere of verder gelegen plaatsen meestal binnen 60 tot 90 minuten. Dit zijn indicaties; het tijdvak dat we in de chat bevestigen is wat telt, zie <a href="/service/bezorgtijden-per-regio/">bezorgtijden per regio</a>.'],
+             'Meestal binnen 15 tot 25 minuten, waar je ook woont in Noord-Brabant. Op een drukke vrijdag- of zaterdagavond kan het iets langer duren; dan krijg je vooraf een nieuwe tijdsindicatie. Het tijdvak dat we in de chat bevestigen is wat telt, zie <a href="/service/bezorgtijden-per-regio/">onze bezorgtijden</a>.'],
             ['Hoe wordt het tijdvak bepaald?',
              'Zodra je bestelling binnenkomt, kijken we waar de dichtstbijzijnde bezorger is en hoeveel adressen er al gepland staan. Op basis daarvan noemen we een tijdvak in plaats van een exact tijdstip, omdat verkeer en weer altijd meespelen. Loopt het toch anders, dan laten we het je in dezelfde chat weten.'],
             ['Wie moet er thuis zijn om de tank aan te nemen?',
@@ -66,7 +66,7 @@ FAQ_TOPICS = [
             ['Bezorgen jullie ook buiten Noord-Brabant?',
              'Nee, ons werkgebied stopt bij de provinciegrens. Woon je net over de grens in Gelderland, Limburg, Zeeland of Zuid-Holland, dan kunnen we helaas niet bij je langskomen. Voor adressen in Noord-Brabant die niet op onze plaatsenlijst staan, kijken we per geval of het haalbaar is.'],
             ['Wat als het slecht weer is of druk op de weg?',
-             'Dan kan een tijdvak ruimer uitvallen; dat melden we vooraf als we het zien aankomen. Bij sneeuw, storm of een afgesloten weg zoeken we een andere route, maar de veiligheid van de bezorger gaat voor snelheid. Je hoort het van ons voordat het tijdvak verstrijkt, niet erna.'],
+             'Dan kan het iets langer duren dan de gebruikelijke 15 tot 25 minuten; dat melden we via WhatsApp met een nieuwe tijdsindicatie zodra we het zien aankomen. Bij sneeuw, storm of een afgesloten weg zoeken we een andere route, maar de veiligheid van de bezorger gaat voor snelheid. Je hoort het van ons voordat het tijdvak verstrijkt, niet erna.'],
         ],
         'related': ['bestellen', 'regels'],
     },
@@ -186,7 +186,7 @@ FAQ_INDEX = {
     'top_h2': 'De vijf meest gestelde vragen',
     'top': [
         ['Hoe snel kunnen jullie ergens in Brabant zijn?',
-         'Dat verschilt per plaats: in en rond de grote steden meestal binnen 30 tot 45 minuten, in middelgrote kernen meestal binnen 45 tot 60 minuten en in de kleinere of verder weg gelegen dorpen meestal binnen 60 tot 90 minuten. Het zijn indicaties; wat we in de chat bevestigen, is het tijdvak waar we naar werken. Een toelichting per regio staat op <a href="/service/bezorgtijden-per-regio/">bezorgtijden per regio</a>.'],
+         'Overal in de provincie meestal binnen 15 tot 25 minuten, van Bergen op Zoom tot Boxmeer. Bij drukte, slecht weer of wegwerkzaamheden kan het iets langer duren, en dat laten we je dan vooraf weten. Wat we in de chat bevestigen, is het tijdvak waar we naar werken; meer uitleg staat op <a href="/service/bezorgtijden-per-regio/">de pagina over bezorgtijden</a>.'],
         ['Welke tank past bij mijn situatie?',
          'We bezorgen drie formaten: 2KG, 4KG en 10KG, elk verzegeld en met de netto-inhoud in kilo N2O als enige verschil. Een klein gezelschap komt doorgaans uit met de 2KG; de grotere formaten zijn bedoeld voor meer mensen of een langere gelegenheid. Op <a href="/lachgas-tanks/">de tankpagina</a> staan de formaten naast elkaar, en in de chat denken we eerlijk mee.'],
         ['Hoe werkt afrekenen aan de deur?',
@@ -233,14 +233,14 @@ ABOUT = {
         {
             'h2': 'Hoe wij werken',
             'paragraphs': [
-                'Alles begint met een bericht via WhatsApp. Je geeft door welk formaat je wilt, waar het heen moet en wanneer; wij antwoorden met de prijs en een tijdvak. Pas als jij akkoord geeft, gaat een bezorger op weg. Betalen doe je bij levering, contant of via Tikkie, en nooit vooraf. De levertijd hangt af van je plaats: in en rond de grote steden is het meestal binnen 30 tot 45 minuten, in middelgrote kernen meestal binnen 45 tot 60 minuten en in de verder gelegen dorpen meestal binnen 60 tot 90 minuten. Aan de deur controleert de bezorger of de ontvanger 18 jaar of ouder is, overhandigt de tank met intacte verzegeling en rondt de betaling af. Meer uitleg vind je bij <a href="/service/bestellen-via-whatsapp/">bestellen via WhatsApp</a> en <a href="/service/bezorgtijden-per-regio/">bezorgtijden per regio</a>.',
+                'Alles begint met een bericht via WhatsApp. Je geeft door welk formaat je wilt, waar het heen moet en wanneer; wij antwoorden met de prijs en een tijdvak. Pas als jij akkoord geeft, gaat een bezorger op weg. Betalen doe je bij levering, contant of via Tikkie, en nooit vooraf. In heel Brabant is de tank er meestal binnen 15 tot 25 minuten, en lukt dat door drukte of verkeer niet, dan hoor je dat vooraf. Aan de deur controleert de bezorger of de ontvanger 18 jaar of ouder is, overhandigt de tank met intacte verzegeling en rondt de betaling af. Meer uitleg vind je bij <a href="/service/bestellen-via-whatsapp/">bestellen via WhatsApp</a> en <a href="/service/bezorgtijden-per-regio/">onze bezorgtijden</a>.',
             ],
         },
         {
             'h2': 'Ons werkgebied: vier regio’s',
             'paragraphs': [
-                'We bezorgen in heel Noord-Brabant en hebben de provincie verdeeld in vier regio’s, elk met een eigen overzicht van plaatsen en indicatieve levertijden. <a href="/bezorggebied/west-brabant/">West-Brabant</a> loopt van Breda, Oosterhout en Etten-Leur tot Bergen op Zoom, Roosendaal en de dorpen richting de Zeeuwse grens. <a href="/bezorggebied/midden-brabant/">Midden-Brabant</a> draait om Tilburg, met daaromheen Waalwijk, Oisterwijk, Goirle en de kernen van de Langstraat.',
-                '<a href="/bezorggebied/noordoost-brabant/">Noordoost-Brabant</a> omvat ’s-Hertogenbosch, Oss, Uden, Veghel en het Land van Cuijk. <a href="/bezorggebied/zuidoost-brabant/">Zuidoost-Brabant</a> bestaat uit Eindhoven met zijn stadsdelen, Helmond, Veldhoven en de dorpen van de Kempen en de Peel. Hoe verder een adres van onze vaste routes ligt, hoe ruimer het tijdvak dat we noemen; dat zeggen we liever vooraf dan dat we je laten wachten zonder bericht.',
+                'We bezorgen in heel Noord-Brabant en hebben de provincie verdeeld in vier regio’s, elk met een eigen overzicht van de plaatsen die we bedienen. <a href="/bezorggebied/west-brabant/">West-Brabant</a> loopt van Breda, Oosterhout en Etten-Leur tot Bergen op Zoom, Roosendaal en de dorpen richting de Zeeuwse grens. <a href="/bezorggebied/midden-brabant/">Midden-Brabant</a> draait om Tilburg, met daaromheen Waalwijk, Oisterwijk, Goirle en de kernen van de Langstraat.',
+                '<a href="/bezorggebied/noordoost-brabant/">Noordoost-Brabant</a> omvat ’s-Hertogenbosch, Oss, Uden, Veghel en het Land van Cuijk. <a href="/bezorggebied/zuidoost-brabant/">Zuidoost-Brabant</a> bestaat uit Eindhoven met zijn stadsdelen, Helmond, Veldhoven en de dorpen van de Kempen en de Peel. In al die regio’s rekenen we op meestal 15 tot 25 minuten, en loopt het door drukte of verkeer uit, dan zeggen we dat liever vooraf dan dat we je laten wachten zonder bericht.',
             ],
         },
         {

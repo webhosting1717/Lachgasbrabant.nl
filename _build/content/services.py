@@ -21,15 +21,15 @@ SERVICE_PAGES = [
             {
                 "h2": "Wat wij doen om vaart te maken",
                 "paragraphs": [
-                    "Zodra je bericht binnen is, kijken we welke koerier het dichtst bij je adres zit en of er al een rit in jouw richting gepland staat. Je krijgt daarna één bevestiging met de prijs, het verwachte tijdvak en de betaalwijze die je hebt gekozen. Die bevestiging is leidend: staat er een ruimer tijdvak in dan je hoopte, dan is dat een eerlijke inschatting en geen opgeblazen marge.",
-                    "In de grote steden en hun directe buurgemeenten rijden we het vaakst, dus daar is een spoedrit meestal binnen 30 tot 45 minuten rond. Hoe de banden verder zijn opgebouwd, lees je op <a href=\"/service/bezorgtijden-per-regio/\">de pagina over bezorgtijden per regio</a>. Onderweg houden we je op de hoogte als er iets verandert, bijvoorbeeld door een afsluiting of een file op de A2 of de A58.",
+                    "Zodra je bericht binnen is, kijken we welke koerier het dichtst bij je adres zit en of er al een rit in jouw richting gepland staat. Je krijgt daarna één bevestiging met de prijs, het verwachte tijdvak en de betaalwijze die je hebt gekozen. Die bevestiging is leidend: noemen we door drukte een later tijdstip dan de gebruikelijke 15 tot 25 minuten, dan is dat een eerlijke inschatting en geen opgeblazen marge.",
+                    "Overal in Noord-Brabant is een spoedrit meestal binnen 15 tot 25 minuten rond, in de grote steden net zo goed als in de dorpen. Wat die tijd kan beïnvloeden, lees je op <a href=\"/service/bezorgtijden-per-regio/\">de pagina over bezorgtijden per regio</a>. Onderweg houden we je op de hoogte als er iets verandert, bijvoorbeeld door een afsluiting of een file op de A2 of de A58.",
                 ],
             },
             {
                 "h2": "Wat we bewust niet beloven",
                 "paragraphs": [
                     "Een vaste aankomsttijd tot op de minuut geven we niet, ook niet als je daar nadrukkelijk om vraagt. Verkeer, weer en het aantal bestellingen dat op hetzelfde moment binnenkomt bepalen samen hoe snel een koerier bij je is. Liever zeggen we vooraf dat het later wordt dan dat we een tijd noemen die we vervolgens niet halen. Een spoedaanvraag krijgt wel voorrang in de planning, maar duwt geen klant uit de rij die al een bevestiging heeft.",
-                    "Voor kleinere of verder gelegen kernen blijft de reistijd simpelweg langer, hoe snel we ook reageren. Een aanvraag uit Baarle-Nassau of Grave krijgt dezelfde aandacht, maar de kilometers blijven; een spoedrit is daar dus niet hetzelfde als in Eindhoven of Breda. Dat zeggen we er bij de bevestiging eerlijk bij. Ook ’s nachts en tijdens feestdagen is de bezetting anders; op <a href=\"/service/nachtbezorging/\">de pagina over nachtbezorging</a> staat wat je dan kunt verwachten.",
+                    "Een aanvraag uit Baarle-Nassau of Grave krijgt dezelfde aandacht als een uit Eindhoven of Breda, en ook daar is de levertijd meestal 15 tot 25 minuten. Wat we niet kunnen wegnemen, zijn files, slecht weer of een drukke vrijdagavond; duurt het daardoor iets langer, dan zeggen we dat er bij de bevestiging eerlijk bij. Ook ’s nachts en tijdens feestdagen is de bezetting anders; op <a href=\"/service/nachtbezorging/\">de pagina over nachtbezorging</a> staat wat je dan kunt verwachten.",
                 ],
             },
             {
@@ -39,12 +39,12 @@ SERVICE_PAGES = [
                 ],
             },
         ],
-        "note": "Alle genoemde tijden zijn een indicatie. Bij drukte, slecht weer of wegwerkzaamheden bevestigen we vooraf een ruimer tijdvak in plaats van een belofte die we niet kunnen nakomen.",
+        "note": "Alle genoemde tijden zijn een indicatie: meestal binnen 15 tot 25 minuten. Bij drukte, slecht weer of wegwerkzaamheden kan het iets langer duren; dat melden we vooraf via WhatsApp met een nieuwe tijdsindicatie.",
         "related": ["bezorgtijden-per-regio", "bestellen-via-whatsapp", "nachtbezorging"],
         "faq": [
             ["Kan ik een spoedbestelling plaatsen zonder vooraf een tijdvak te krijgen?", "Nee, ook bij spoed sturen we eerst een bevestiging met het verwachte tijdvak. Zo weet je waar je aan toe bent en weet de koerier dat je thuis bent."],
             ["Wat gebeurt er als de koerier later is dan het bevestigde tijdvak?", "Je krijgt dan een bericht via WhatsApp met de nieuwe verwachting. Je mag de bestelling op dat moment kosteloos annuleren, omdat je nog niets hebt betaald."],
-            ["Is spoedbezorging in elke plaats van Noord-Brabant mogelijk?", "We rijden overal in de provincie, maar de reistijd verschilt per band. Bekijk <a href=\"/bezorggebied/\">het bezorggebied</a> om te zien in welke band jouw plaats valt."],
+            ["Is spoedbezorging in elke plaats van Noord-Brabant mogelijk?", "Ja, we rijden overal in de provincie en ook met spoed is de levertijd meestal 15 tot 25 minuten, in de stad en in het kleinste kerkdorp. Bekijk <a href=\"/bezorggebied/\">het bezorggebied</a> om te zien welke kernen we bedienen."],
         ],
     },
     {
@@ -58,8 +58,8 @@ SERVICE_PAGES = [
             {
                 "h2": "Dag en nacht bereikbaar via WhatsApp",
                 "paragraphs": [
-                    "Onze WhatsApp gaat niet uit om elf uur. Een bericht dat om twee uur ’s nachts binnenkomt, wordt gelezen en beantwoord door iemand die op dat moment dienst heeft. Daardoor kun je op elk uur een bevestiging krijgen met prijs en tijdvak, en weet je vooraf of een koerier in jouw buurt beschikbaar is. We werken ’s nachts wel met een kleinere bezetting dan op een zaterdagmiddag, dus het kan voorkomen dat we een ruimer tijdvak noemen dan je van ons overdag gewend bent.",
-                    "Bestel je laat op de avond, stuur dan meteen je volledige adres, de gewenste tank en een naam. Zo hoeven we ’s nachts geen vragen heen en weer te sturen. Lees eventueel vooraf <a href=\"/service/bestellen-via-whatsapp/\">hoe bestellen via WhatsApp werkt</a>, dan verloopt het eerste contact zonder haperingen. In Breda, Tilburg, ’s-Hertogenbosch en Eindhoven zijn ook ’s nachts het vaakst koeriers onderweg, in de kleinere kernen wat minder.",
+                    "Onze WhatsApp gaat niet uit om elf uur. Een bericht dat om twee uur ’s nachts binnenkomt, wordt gelezen en beantwoord door iemand die op dat moment dienst heeft. Daardoor kun je op elk uur een bevestiging krijgen met prijs en tijdvak, en weet je vooraf of een koerier in jouw buurt beschikbaar is. Ook ’s nachts is de levertijd meestal 15 tot 25 minuten; komen er veel aanvragen tegelijk binnen, dan kan het iets langer duren en laten we dat vooraf weten.",
+                    "Bestel je laat op de avond, stuur dan meteen je volledige adres, de gewenste tank en een naam. Zo hoeven we ’s nachts geen vragen heen en weer te sturen. Lees eventueel vooraf <a href=\"/service/bestellen-via-whatsapp/\">hoe bestellen via WhatsApp werkt</a>, dan verloopt het eerste contact zonder haperingen. Een adres in een klein kerkdorp is daarbij net zo welkom als een adres in Breda, Tilburg, ’s-Hertogenbosch of Eindhoven.",
                 ],
             },
             {
@@ -83,7 +83,7 @@ SERVICE_PAGES = [
                 ],
             },
         ],
-        "note": "’s Nachts rijden we met een kleinere bezetting. Het tijdvak dat we bevestigen is daarom een eerlijke inschatting en kan ruimer zijn dan overdag.",
+        "note": "Ook ’s nachts bezorgen we meestal binnen 15 tot 25 minuten. Is het druk, dan kan het iets langer duren; dat staat dan vooraf in je bevestiging.",
         "related": ["spoedbezorging", "weekendbezorging", "leeftijdscontrole-18-plus", "lachgas-en-alcohol"],
         "faq": [
             ["Tot hoe laat kan ik ’s nachts bestellen?", "Er is geen sluitingstijd. Onze WhatsApp wordt de hele nacht gelezen en zolang er een koerier beschikbaar is in jouw regio, krijg je een bevestiging met tijdvak."],
@@ -102,7 +102,7 @@ SERVICE_PAGES = [
             {
                 "h2": "Vrijdag en zaterdag: de drukste uren",
                 "paragraphs": [
-                    "Tussen een uur of negen ’s avonds en twee uur ’s nachts op vrijdag en zaterdag komt een groot deel van alle weekaanvragen binnen. Dat is precies het moment waarop iedereen tegelijk een koerier wil, van Bergen op Zoom tot Boxmeer. We zetten dan onze volle bezetting in, maar de tijdvakken die we bevestigen zitten in die uren vaker aan de ruime kant van de band dan op een dinsdagmiddag. Dat zeggen we liever vooraf dan dat je voor niets zit te wachten.",
+                    "Tussen een uur of negen ’s avonds en twee uur ’s nachts op vrijdag en zaterdag komt een groot deel van alle weekaanvragen binnen. Dat is precies het moment waarop iedereen tegelijk een koerier wil, van Bergen op Zoom tot Boxmeer. We zetten dan onze volle bezetting in, maar in die uren kan het vaker iets langer duren dan de gebruikelijke 15 tot 25 minuten. Dat zeggen we liever vooraf dan dat je voor niets zit te wachten.",
                     "De drukte is niet overal gelijk. In de grote steden komt de piek doorgaans vroeger op de avond; in de dorpen rond Oss of Helmond komen aanvragen juist later binnen, vaak na een feest in de buurt. Onze planning houdt daar rekening mee, maar een koerier kan niet op twee plaatsen tegelijk zijn. Een bericht dat compleet is en direct kan worden bevestigd, gaat dan voor op een chat die nog vragen oproept.",
                 ],
             },
@@ -116,23 +116,23 @@ SERVICE_PAGES = [
             {
                 "h2": "Zondag: rustiger, maar niet gesloten",
                 "paragraphs": [
-                    "Op zondag is het aanmerkelijk stiller dan op de twee avonden ervoor. Koeriers hebben dan meer ruimte in hun route, waardoor een bevestigd tijdvak vaker aan de korte kant van de band uitkomt. Tegelijk rijden er op zondag minder koeriers, zeker in de verder gelegen kernen in band C. Een aanvraag uit Budel of Werkendam kan op zondagochtend dus even duren voordat er een rit richting die hoek vertrekt. We zeggen dat eerlijk in de bevestiging.",
+                    "Op zondag is het aanmerkelijk stiller dan op de twee avonden ervoor. Koeriers hebben dan meer ruimte in hun route, waardoor we de gebruikelijke 15 tot 25 minuten vaak makkelijk halen. Tegelijk rijden er op zondagochtend minder koeriers; komen er dan veel aanvragen tegelijk binnen, of het nu uit Budel, Werkendam of Breda is, dan kan het iets langer duren. We zeggen dat eerlijk in de bevestiging.",
                     "Zondagavond is in de praktijk een gewone avond: veel mensen moeten maandag werken en bestellen vroeger of niet. Voor een zondagmiddag geldt juist het omgekeerde: dat is vaak het rustigste moment van het hele weekend om een tijdvak te krijgen dat precies past. Wil je op zondag toch laat bestellen, dan gelden de afspraken van <a href=\"/service/nachtbezorging/\">nachtbezorging</a>, met een rustige overdracht aan de deur en dezelfde leeftijdscontrole als altijd.",
                 ],
             },
             {
-                "h2": "Verschillen per regio in het weekend",
+                "h2": "Het hele weekend dezelfde levertijd",
                 "paragraphs": [
-                    "De drie banden voor bezorgtijd blijven ook in het weekend het uitgangspunt: in de grote steden en hun buurgemeenten meestal binnen 30 tot 45 minuten, in middelgrote kernen meestal binnen 45 tot 60 minuten en in kleinere of verder gelegen plaatsen meestal binnen 60 tot 90 minuten. Drukte kan een bestelling naar de bovenkant van zijn band schuiven, maar we beloven nooit een snellere band dan waar je adres in valt. Kijk op <a href=\"/service/bezorgtijden-per-regio/\">bezorgtijden per regio</a> waar jouw plaats staat.",
+                    "Ook in het weekend geldt overal in Noord-Brabant dezelfde indicatie: meestal binnen 15 tot 25 minuten, in de grote steden net zo goed als in de kleinere kernen. Drukte op vrijdag- en zaterdagavond, een feest in de buurt of slecht weer kan een bestelling wat later maken; dan krijg je vooraf in WhatsApp een nieuwe tijdsindicatie. Kijk op <a href=\"/service/bezorgtijden-per-regio/\">bezorgtijden per regio</a> wat de levertijd verder beïnvloedt.",
                 ],
             },
         ],
-        "note": "In het weekend bevestigen we tijdvakken eerder ruim dan krap. Een kortere levertijd is mooi meegenomen, een gemiste belofte niet.",
+        "note": "Ook in het weekend is de levertijd meestal 15 tot 25 minuten. Wordt het door drukte later, dan hoor je dat vooraf; een eerlijke melding is beter dan een gemiste belofte.",
         "related": ["bezorgtijden-per-regio", "nachtbezorging", "feestdagen-en-evenementen", "bestellen-via-whatsapp"],
         "faq": [
             ["Kan ik een tijdvak voor zaterdagavond al eerder in de week vastleggen?", "Ja. Stuur je aanvraag via WhatsApp met de gewenste dag en tijd; wij bevestigen prijs en tijdvak en je betaalt pas bij levering."],
             ["Waarom duurt het op vrijdagavond soms langer dan het genoemde tijdvak?", "Omdat veel aanvragen tegelijk binnenkomen en koeriers in een route rijden. Als we zien dat het later wordt, sturen we een bericht met de nieuwe verwachting."],
-            ["Bezorgen jullie ook op zondagochtend?", "Ja, al rijden er dan minder koeriers dan op zaterdagavond. Vooral in de verder gelegen kernen kan het tijdvak op zondag ruimer zijn; dat staat dan in de bevestiging."],
+            ["Bezorgen jullie ook op zondagochtend?", "Ja, al rijden er dan minder koeriers dan op zaterdagavond. Ook op zondagochtend is de levertijd meestal 15 tot 25 minuten; duurt het een keer langer, dan staat dat vooraf in de bevestiging."],
         ],
     },
     {
@@ -146,14 +146,14 @@ SERVICE_PAGES = [
             {
                 "h2": "Carnaval in Brabant",
                 "paragraphs": [
-                    "Carnaval is in Noord-Brabant een week waarin vrijwel elke stad en elk dorp op zijn kop staat, van Kielegat tot Oeteldonk en van Kruikenstad tot Lampegat. Voor ons betekent dat vooral veel verkeer, afgesloten centra en een piek in aanvragen gedurende de hele carnavalsweek. Koeriers kunnen tijdens de optochten vaak niet in de binnenstad komen, waardoor een tijdvak ruimer uitvalt of we een woonadres net buiten het afgesloten gebied voorstellen. Dat spreken we vooraf in de chat af.",
+                    "Carnaval is in Noord-Brabant een week waarin vrijwel elke stad en elk dorp op zijn kop staat, van Kielegat tot Oeteldonk en van Kruikenstad tot Lampegat. Voor ons betekent dat vooral veel verkeer, afgesloten centra en een piek in aanvragen gedurende de hele carnavalsweek. Koeriers kunnen tijdens de optochten vaak niet in de binnenstad komen, waardoor het iets langer kan duren dan de gebruikelijke 15 tot 25 minuten of we een woonadres net buiten het afgesloten gebied voorstellen. Dat spreken we vooraf in de chat af.",
                     "Veel gemeenten hebben in hun APV een verbod op het gebruik van lachgas in de openbare ruimte of op evenemententerreinen, en tijdens carnaval wordt daar actiever op gehandhaafd. Wij bezorgen alleen op een woonadres, niet op straat, in een tent of bij een feestlocatie. Wat zo’n verbod inhoudt en waar je de regels van je eigen gemeente vindt, lees je in <a href=\"/informatie/lachgas-regels-per-gemeente-brabant/\">het artikel over regels per gemeente</a>.",
                 ],
             },
             {
                 "h2": "Oud en Nieuw",
                 "paragraphs": [
-                    "De nacht van 31 december op 1 januari is de drukste van het jaar, in heel Brabant tegelijk. Wie op het laatste moment bestelt, loopt grote kans dat een tijdvak pas na middernacht beschikbaar is of dat we een aanvraag voor een verder gelegen kern moeten afwijzen. Reserveer daarom bij voorkeur al voor de kerstdagen een tijdvak overdag op 31 december. We bevestigen dan prijs en tijd, en je betaalt zoals altijd pas bij de overdracht, contant of via Tikkie.",
+                    "De nacht van 31 december op 1 januari is de drukste van het jaar, in heel Brabant tegelijk. Wie op het laatste moment bestelt, loopt grote kans dat een tijdvak pas na middernacht beschikbaar is of dat we een aanvraag moeten afwijzen omdat alle koeriers al onderweg zijn. Reserveer daarom bij voorkeur al voor de kerstdagen een tijdvak overdag op 31 december. We bevestigen dan prijs en tijd, en je betaalt zoals altijd pas bij de overdracht, contant of via Tikkie.",
                     "Houd een tank rond de jaarwisseling weg van vuurwerk, vuurkorven en andere hittebronnen, en zet hem rechtop op een koele plek binnen. De druk in een gasfles loopt op bij warmte; hoe je daarmee omgaat staat in <a href=\"/informatie/lachgastank-bewaren-en-vervoeren/\">het artikel over bewaren en vervoeren</a>. Ook de combinatie met alcohol verdient deze nacht aandacht, omdat die het risico op onwel worden duidelijk vergroot.",
                 ],
             },
@@ -297,13 +297,13 @@ SERVICE_PAGES = [
                 "h2": "Welke gegevens we nodig hebben",
                 "paragraphs": [
                     "We vragen alleen wat de koerier nodig heeft om op het juiste adres bij de juiste persoon uit te komen: straat, huisnummer met eventuele toevoeging, postcode en plaats, een voornaam voor aan de deur en het gewenste tijdvak. Voeg bij een appartement of een bedrijventerrein een korte aanwijzing toe, zoals de ingang of de bel die werkt. Je geboortedatum of een kopie van je ID hoeven we niet vooraf; die controle doet de koerier ter plekke.",
-                    "Een aanvraag die uit losse berichten bestaat, kost meer tijd dan één compleet bericht. Vooral op drukke avonden maakt dat verschil, omdat we bestellingen bevestigen in de volgorde waarin ze compleet zijn. Een betaalwijze en een korte aanwijzing voor de koerier mogen in hetzelfde bericht; hoe minder we hoeven na te vragen, hoe sneller je bevestiging komt. Wil je weten in welke band jouw plaats valt voordat je bestelt, kijk dan op <a href=\"/service/bezorgtijden-per-regio/\">bezorgtijden per regio</a>.",
+                    "Een aanvraag die uit losse berichten bestaat, kost meer tijd dan één compleet bericht. Vooral op drukke avonden maakt dat verschil, omdat we bestellingen bevestigen in de volgorde waarin ze compleet zijn. Een betaalwijze en een korte aanwijzing voor de koerier mogen in hetzelfde bericht; hoe minder we hoeven na te vragen, hoe sneller je bevestiging komt. Wil je vooraf weten hoe we de levertijd inschatten, kijk dan op <a href=\"/service/bezorgtijden-per-regio/\">bezorgtijden per regio</a>.",
                 ],
             },
             {
                 "h2": "Bevestiging en tijdvak",
                 "paragraphs": [
-                    "Pas na onze bevestiging is je bestelling definitief. In dat bericht staan de prijs voor de gekozen tank, het tijdvak waarin de koerier naar verwachting aankomt en de betaalwijze die je hebt opgegeven. Het tijdvak baseren we op de afstand tot de dichtstbijzijnde koerier en de drukte van dat moment; het is een eerlijke inschatting, geen klok die we beloven te halen. Krijg je geen bevestiging, dan is er geen bestelling en komt er ook geen koerier. Reageer op de bevestiging met een duidelijk akkoord, zodat we weten dat je thuis bent in het genoemde tijdvak.",
+                    "Pas na onze bevestiging is je bestelling definitief. In dat bericht staan de prijs voor de gekozen tank, het tijdvak waarin de koerier naar verwachting aankomt en de betaalwijze die je hebt opgegeven. Meestal ligt dat binnen 15 tot 25 minuten, en bij drukte of slecht weer noemen we eerlijk een later tijdstip; het blijft een inschatting, geen klok die we beloven te halen. Krijg je geen bevestiging, dan is er geen bestelling en komt er ook geen koerier. Reageer op de bevestiging met een duidelijk akkoord, zodat we weten dat je thuis bent in het genoemde tijdvak.",
                 ],
             },
             {
@@ -330,55 +330,54 @@ SERVICE_PAGES = [
     {
         "slug": "bezorgtijden-per-regio",
         "label": "Bezorgtijden",
-        "title": "Bezorgtijden per regio in Noord-Brabant | Lachgas Brabant",
-        "description": "Hoe snel een lachgastank bij je is, hangt af van je plaats. Lees hoe onze drie banden werken, welke plaatsen erin vallen en hoe we een tijdvak bevestigen.",
-        "h1": "Bezorgtijden per regio",
-        "lead": "Drie banden, één eerlijke inschatting. Je plaats bepaalt de band, drukte en afstand bepalen waar in die band je uitkomt.",
+        "title": "Bezorgtijden in Noord-Brabant | Lachgas Brabant",
+        "description": "In heel Noord-Brabant bezorgen we lachgastanks meestal binnen 15 tot 25 minuten. Lees hoe we een tijdvak bevestigen en wat de levertijd beïnvloedt.",
+        "h1": "Bezorgtijden in Noord-Brabant",
+        "lead": "Of je nu in Breda, Boxmeer of een kerkdorp in de Kempen woont: we zijn meestal binnen 15 tot 25 minuten bij je. Zo komt die indicatie tot stand.",
         "sections": [
             {
-                "h2": "Drie banden, één uitgangspunt",
+                "h2": "Eén levertijd voor heel Noord-Brabant",
                 "paragraphs": [
-                    "Noord-Brabant is te groot om één levertijd voor te noemen. Van Bergen op Zoom naar Boxmeer is het ruim een uur rijden, en een koerier die in Tilburg staat is sneller in Goirle dan in Hilvarenbeek. Daarom werken we met drie banden die laten zien wat je realistisch mag verwachten. Band A geldt voor de vier grote steden en hun directe buurgemeenten, band B voor middelgrote kernen en band C voor kleinere of verder gelegen plaatsen. Elke band is een indicatie; het tijdvak dat we bevestigen is wat telt.",
+                    "Voor elke plaats in de provincie noemen we dezelfde indicatie: meestal binnen 15 tot 25 minuten na je bestelling. Dat geldt voor de binnenstad van Eindhoven en de wijken van Tilburg, maar net zo goed voor Steenbergen, Hilvarenbeek, Grave of Budel. Onze koeriers zijn verspreid over de vier regio’s onderweg, zodat er vrijwel altijd iemand in de buurt is. Het woord ‘meestal’ staat er bewust bij: het is een eerlijke verwachting, geen belofte tot op de minuut.",
                 ],
             },
             {
-                "h2": "Band A: meestal binnen 30 tot 45 minuten",
+                "h2": "Hoe we een tijdsindicatie geven",
                 "paragraphs": [
-                    "In Breda, Tilburg, ’s-Hertogenbosch en Eindhoven zijn de meeste koeriers tegelijk actief, waardoor een rit zelden lang hoeft te wachten op een vrije auto. Hetzelfde geldt voor de gemeenten die er direct tegenaan liggen: Oosterhout en Etten-Leur bij Breda, Rijen, Goirle en Berkel-Enschot bij Tilburg, Vught en Rosmalen bij ’s-Hertogenbosch, en rond Eindhoven onder meer Veldhoven, Best, Nuenen, Geldrop, Waalre en Son en Breugel. Ook Helmond valt in deze band. De Eindhovense stadsdelen Woensel, Strijp, Tongelre, Stratum en Gestel hebben hun eigen pagina’s, maar delen dezelfde indicatie.",
+                    "Zodra je bestelling via WhatsApp binnen is, kijken we welke koerier vrij is en of er al een rit in jouw richting gepland staat. Daarna krijg je één bevestiging met de prijs, de betaalwijze en het tijdvak waarin de koerier naar verwachting aanbelt. Dat tijdvak is de afspraak die telt. Reageer met een duidelijk akkoord, dan weet de koerier dat je thuis bent en vertrekt hij direct. Wil je liever op een later moment ontvangen, bijvoorbeeld na het eten of op zaterdagmiddag, dan kun je ook vooraf een tijdvak reserveren.",
                 ],
             },
             {
-                "h2": "Band B: meestal binnen 45 tot 60 minuten",
+                "h2": "Wat de levertijd kan beïnvloeden",
                 "paragraphs": [
-                    "Middelgrote kernen liggen iets verder van de plekken waar onze koeriers doorgaans staan. Denk in West-Brabant aan Bergen op Zoom, Roosendaal, Zevenbergen, Oudenbosch en Zundert, in Midden-Brabant aan Waalwijk, Dongen, Oisterwijk, Kaatsheuvel, Drunen en Vlijmen, in het noordoosten aan Oss, Veghel, Schijndel, Uden, Boxtel en Heesch, en in het zuidoosten aan Valkenswaard, Deurne, Gemert, Someren, Asten, Heeze, Oirschot en Beek en Donk. De extra tijd zit vooral in de aanrijroute, niet in de afhandeling aan de deur.",
+                    "Soms duurt het iets langer dan 15 tot 25 minuten. Op vrijdag- en zaterdagavond komen veel aanvragen tegelijk binnen, en rond carnaval, Koningsdag, Oud en Nieuw of een groot evenement zijn binnensteden deels afgesloten. Ook slecht weer, een file op de A2, A16, A58 of A59 en wegwerkzaamheden kunnen een rit ophouden. Zien we zoiets aankomen, dan noemen we in de bevestiging meteen een realistisch tijdstip in plaats van de standaardindicatie. Zo weet je vooraf waar je aan toe bent en zit je niet voor niets bij de deur te wachten.",
                 ],
             },
             {
-                "h2": "Band C: meestal binnen 60 tot 90 minuten",
+                "h2": "Wat je zelf kunt doen",
                 "paragraphs": [
-                    "Kleinere of verder gelegen kernen vragen een langere rit, soms over provinciale wegen zonder snelle verbinding. In het westen zijn dat bijvoorbeeld Steenbergen, Hoogerheide, Baarle-Nassau en Werkendam, in het midden Hilvarenbeek, in het noordoosten Cuijk, Boxmeer, Grave en Boekel, en in het zuidoosten onder meer Bladel, Bergeijk, Reusel en Budel. Een bestelling uit deze band plannen we vaak in een route met andere ritten in dezelfde richting. Reserveer je vooraf een tijdvak, dan is de wachttijd op het moment zelf vaak korter dan de band doet vermoeden.",
+                    "Een groot deel van de snelheid zit in de eerste berichten. Stuur in één keer je volledige adres met huisnummer en toevoeging, de tank die je wilt (2KG, 4KG of 10KG) en hoe je wilt betalen, contant of via Tikkie. Woon je in een appartement, op een bedrijventerrein of aan een buitenweg, noem dan de ingang, de bel of een herkenningspunt. Houd je telefoon bij de hand en een geldig identiteitsbewijs klaar, want de leeftijdscontrole slaan we nooit over. Hoe een complete aanvraag eruitziet, lees je bij <a href=\"/service/bestellen-via-whatsapp/\">bestellen via WhatsApp</a>.",
                 ],
             },
             {
-                "h2": "Waarom afstand en drukte tellen",
+                "h2": "Als het toch later wordt",
                 "paragraphs": [
-                    "Een koerier rijdt vanaf de plek waar zijn vorige levering eindigde, niet vanaf een vast depot in elke stad. Hoe verder jouw adres daarvandaan ligt, hoe meer tijd de rit kost, en op een vrijdagavond komen daar wachtende bestellingen bij. Weer, wegwerkzaamheden en afgesloten centra tijdens evenementen doen de rest. Al die factoren wegen we voordat we een tijdvak bevestigen, zodat de band waarin je woont een realistische verwachting is en geen reclameslogan.",
-                    "Het tijdvak krijg je in de WhatsApp-bevestiging, samen met de prijs en de betaalwijze. Verandert er onderweg iets, dan melden we dat in dezelfde chat. Woon je op de grens van twee banden, dan geven we het ruimere tijdvak op en kijken we of een koerier het korter kan maken. Zo weet je vooraf waar je aan toe bent zonder dat we iets beloven wat we niet kunnen waarmaken. Zoek je plaats op via de regiopagina’s hieronder of via <a href=\"/bezorggebied/\">het volledige bezorggebied</a>.",
+                    "Loopt een rit onderweg uit, dan hoor je dat via WhatsApp voordat het genoemde tijdvak voorbij is, samen met een nieuwe tijdsindicatie. Past die niet meer in je planning, dan kun je de bestelling kosteloos verschuiven of annuleren, omdat je pas aan de deur betaalt. We laten je nooit wachten zonder bericht. Welke plaatsen we per regio bedienen, zie je op de regiopagina’s hieronder of via <a href=\"/bezorggebied/\">het volledige bezorggebied</a>.",
                 ],
                 "bullets": [
-                    "<a href=\"/bezorggebied/west-brabant/\">West-Brabant</a>: Breda, Oosterhout en Etten-Leur in band A; Bergen op Zoom en Roosendaal in band B.",
-                    "<a href=\"/bezorggebied/midden-brabant/\">Midden-Brabant</a>: Tilburg, Goirle en Rijen in band A; Waalwijk en Oisterwijk in band B.",
-                    "<a href=\"/bezorggebied/noordoost-brabant/\">Noordoost-Brabant</a>: ’s-Hertogenbosch, Rosmalen en Vught in band A; Oss en Uden in band B.",
-                    "<a href=\"/bezorggebied/zuidoost-brabant/\">Zuidoost-Brabant</a>: Eindhoven, Helmond en Veldhoven in band A; Valkenswaard en Deurne in band B.",
+                    "<a href=\"/bezorggebied/west-brabant/\">West-Brabant</a>: Breda, Roosendaal, Bergen op Zoom, Etten-Leur en de dorpen tot aan Altena en Woensdrecht.",
+                    "<a href=\"/bezorggebied/midden-brabant/\">Midden-Brabant</a>: Tilburg, Waalwijk, Goirle, Oisterwijk en de kernen van de Langstraat.",
+                    "<a href=\"/bezorggebied/noordoost-brabant/\">Noordoost-Brabant</a>: ’s-Hertogenbosch, Oss, Veghel, Uden en het Land van Cuijk.",
+                    "<a href=\"/bezorggebied/zuidoost-brabant/\">Zuidoost-Brabant</a>: Eindhoven, Helmond, Veldhoven, de Kempen en de Peel.",
                 ],
             },
         ],
-        "note": "Alle banden zijn bewust indicaties met het woord ‘meestal’ erin. Het tijdvak in je WhatsApp-bevestiging is de enige afspraak waar je ons aan mag houden.",
+        "note": "Overal in Noord-Brabant meestal binnen 15 tot 25 minuten. Het tijdvak in je WhatsApp-bevestiging is de afspraak waar je ons aan mag houden.",
         "related": ["spoedbezorging", "weekendbezorging", "bestellen-via-whatsapp"],
         "faq": [
-            ["Mijn plaats staat niet in de lijst. In welke band val ik dan?", "Stuur je adres via WhatsApp; wij kijken welke band van toepassing is en bevestigen een tijdvak. Het overzicht per plaats staat op <a href=\"/bezorggebied/\">de bezorggebiedpagina</a>."],
-            ["Kan een plaats in band B toch sneller worden bezorgd dan de band aangeeft?", "Ja, als er toevallig een koerier in de buurt is. Dat zie je dan terug in het bevestigde tijdvak, maar we beloven het niet vooraf."],
-            ["Waarom is Helmond band A en Deurne band B, terwijl ze dicht bij elkaar liggen?", "Omdat de banden gaan over waar onze koeriers doorgaans actief zijn, niet alleen over hemelsbrede afstand. Helmond is een grote stad met veel ritten, Deurne ligt verder van die stroom."],
+            ["Mijn plaats staat niet in de lijst, bezorgen jullie daar ook?", "Waarschijnlijk wel. Stuur je adres via WhatsApp; ligt het in Noord-Brabant, dan bevestigen we een tijdvak, meestal binnen 15 tot 25 minuten. Het overzicht per plaats staat op <a href=\"/bezorggebied/\">de bezorggebiedpagina</a>."],
+            ["Geldt dezelfde levertijd ook na middernacht?", "Ja, ook ’s nachts is het meestal 15 tot 25 minuten. Is het druk, dan noemen we vooraf een later tijdstip, en de koerier stuurt een bericht in plaats van aan te bellen. Lees meer bij <a href=\"/service/nachtbezorging/\">nachtbezorging</a>."],
+            ["Wat als ik binnen het tijdvak toch niet thuis ben?", "Laat het zo snel mogelijk weten in dezelfde chat. Is de koerier nog niet vertrokken, dan verschuiven we de levering; staat hij al voor de deur en reageert niemand, dan gaat de tank mee terug en plannen we in overleg een nieuw moment."],
         ],
     },
 ]
@@ -390,7 +389,7 @@ SERVICE_INDEX = {
     "lead": "Hoe wij werken, van het eerste WhatsApp-bericht tot de overdracht aan de deur. Per onderwerp een eigen pagina met de afspraken die daarbij horen.",
     "intro": [
         "Een bezorgservice draait op duidelijke afspraken. Op deze pagina’s leggen we per onderwerp uit wat je van ons mag verwachten en wat wij van jou vragen: hoe een bestelling via WhatsApp tot stand komt, hoe we een tijdvak bepalen voor jouw plaats in Noord-Brabant, wat er anders is bij spoed, ’s nachts, in het weekend en rond feestdagen, en hoe betalen bij levering en de leeftijdscontrole aan de deur verlopen. Geen kleine lettertjes, maar gewone taal die je in één keer leest.",
-        "We schrijven deze pagina’s bewust zonder grote woorden. Levertijden noemen we als indicatie in drie banden, de prijs bevestigen we vooraf in de chat en je betaalt pas als de verzegelde tank voor je staat, contant of via Tikkie. Wie ons werkgebied wil zien, kijkt op <a href=\"/bezorggebied/\">de pagina over het bezorggebied</a>; wie meer wil weten over lachgas zelf, vindt achtergrond, gezondheid en regels onder <a href=\"/informatie/\">informatie</a>. Staat je vraag nergens, dan is de contactpagina de kortste weg.",
+        "We schrijven deze pagina’s bewust zonder grote woorden. De levertijd is overal meestal 15 tot 25 minuten en noemen we altijd als indicatie, de prijs bevestigen we vooraf in de chat en je betaalt pas als de verzegelde tank voor je staat, contant of via Tikkie. Wie ons werkgebied wil zien, kijkt op <a href=\"/bezorggebied/\">de pagina over het bezorggebied</a>; wie meer wil weten over lachgas zelf, vindt achtergrond, gezondheid en regels onder <a href=\"/informatie/\">informatie</a>. Staat je vraag nergens, dan is de contactpagina de kortste weg.",
     ],
 }
 

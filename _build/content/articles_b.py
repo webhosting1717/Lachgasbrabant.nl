@@ -138,7 +138,7 @@ ARTICLES = [
             {
                 'h2': 'Wat dit betekent voor onze bezorging',
                 'paragraphs': [
-                    'Onze bezorgers vervoeren tanks rechtop en uit de zon, en in de zomer blijven ze niet langer in de auto dan nodig. Bij een bestelling bevestigen we vooraf een tijdvak, zodat je thuis bent en de tank direct binnen op een koele plek kan staan in plaats van op de stoep te wachten. Kom je overdag niet thuis en wil je een tank op een ander moment ontvangen, geef dat dan aan via WhatsApp. Hoe de tijdvakken per regio werken, staat op <a href="/service/bezorgtijden-per-regio/">bezorgtijden per regio</a>; de basisfeiten over N2O lees je in <a href="/informatie/wat-is-lachgas/">wat is lachgas</a>.',
+                    'Onze bezorgers vervoeren tanks rechtop en uit de zon, en in de zomer blijven ze niet langer in de auto dan nodig. Bij een bestelling bevestigen we vooraf een tijdvak, zodat je thuis bent en de tank direct binnen op een koele plek kan staan in plaats van op de stoep te wachten. Kom je overdag niet thuis en wil je een tank op een ander moment ontvangen, geef dat dan aan via WhatsApp. Hoe we een tijdvak bepalen, staat op <a href="/service/bezorgtijden-per-regio/">de pagina over bezorgtijden</a>; de basisfeiten over N2O lees je in <a href="/informatie/wat-is-lachgas/">wat is lachgas</a>.',
                 ],
             },
         ],

@@ -52,6 +52,8 @@ def upgrade_html(d, kind):
 
 
 def apply(repo, kind="template"):
+    import levertijd
+    levertijd.apply_dir(repo)
     n = 0; fonts_used = set(); pages = []
     for root, dirs, files in os.walk(repo):
         if ".git" in root or "_build" in root: continue

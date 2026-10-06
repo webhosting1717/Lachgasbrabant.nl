@@ -106,6 +106,48 @@ def itemlist_schema(name, items):
             "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "url": SITE + h} for i, (n, h) in enumerate(items)]}
 
 
+MM_ICON = {
+    "tank": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="6" width="10" height="16" rx="3"/><path d="M10 6V3h4v3"/><path d="M7 11h10"/></svg>',
+    "pin": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>',
+    "book": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>',
+    "chat": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>',
+    "chev": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>',
+}
+MM_TILES = [("/lachgas-tanks/", "Lachgas tanks", "tank"), ("/bezorggebied/", "Bezorggebied", "pin"), ("/informatie/", "Informatie", "book"), ("/veelgestelde-vragen/", "Veelgestelde vragen", "chat")]
+MM_GROUPS = [
+    ("Bestellen", [("/lachgas-tanks/2kg/", "Lachgastank 2KG"), ("/lachgas-tanks/4kg/", "Lachgastank 4KG"), ("/lachgas-tanks/10kg/", "Lachgastank 10KG"),
+                   ("/service/bestellen-via-whatsapp/", "Zo werkt bestellen"), ("/service/betalen-bij-levering/", "Betalen bij levering"), ("/service/zakelijk-bestellen/", "Zakelijk bestellen")]),
+    ("Regio's", [("/bezorggebied/west-brabant/", "West-Brabant"), ("/bezorggebied/midden-brabant/", "Midden-Brabant"), ("/bezorggebied/noordoost-brabant/", "Noordoost-Brabant"),
+                 ("/bezorggebied/zuidoost-brabant/", "Zuidoost-Brabant"), ("/service/bezorgtijden-per-regio/", "Bezorgtijden per regio")]),
+    ("Informatie", [("/informatie/veiligheid-en-gezondheid/", "Veiligheid en gezondheid"), ("/informatie/regels-en-wetgeving/", "Regels en wetgeving"),
+                    ("/informatie/eerste-keer-lachgas-bestellen/", "Voor het eerst bestellen"), ("/informatie/is-lachgas-legaal-in-nederland/", "Is lachgas legaal?")]),
+    ("Service", [("/service/bezorgvoorwaarden/", "Bezorgvoorwaarden"), ("/service/bestelling-wijzigen-of-annuleren/", "Wijzigen of annuleren"),
+                 ("/service/veilig-bestellen-oplichting-herkennen/", "Veilig bestellen"), ("/over-ons/", "Over ons"), ("/contact/", "Contact")]),
+]
+
+
+def mobile_menu(path):
+    cur = lambda h: ' aria-current="page"' if h == path else ""
+    tiles = "".join('<a class="mm-tile" href="%s"%s>%s%s</a>' % (h, cur(h), MM_ICON[i], esc(t)) for h, t, i in MM_TILES)
+    groups = "".join('<div class="mm-group"><p class="mm-h">%s</p>%s</div>' % (esc(g), "".join('<a class="mm-link" href="%s"%s><span>%s</span>%s</a>' % (h, cur(h), esc(t), MM_ICON["chev"]) for h, t in items)) for g, items in MM_GROUPS)
+    return ('<nav class="menu-panel" aria-label="Mobiel menu">'
+            '<div class="mm-status"><span class="mm-dot"></span><span><strong>24/7 bereikbaar via WhatsApp</strong><br>In de grote Brabantse steden meestal binnen 30 tot 45 minuten</span></div>'
+            '<div class="mm-tiles">%s</div>'
+            '<a class="mm-prod" href="/lachgas-tanks/2kg/"><img src="/assets/lachgastank-2kg-160.webp" width="56" height="56" alt="" loading="lazy" decoding="async"><span><strong>Lachgastank 2KG</strong><small>Verzegeld geleverd &middot; bekijk de tank</small></span></a>'
+            '%s<div class="mm-foot"><a class="btn btn-wa" href="%s" target="_blank" rel="noopener">%s WhatsApp ons nu</a>'
+            '<p class="mm-trust"><span>18+ met legitimatie</span><span>Verzegeld</span><span>Betalen aan de deur</span></p></div></nav>'
+            % (tiles, groups, wa_link(), ICON["wa"]))
+
+
+def product_feature(heading="h3"):
+    facts = [("Inhoud", "2 kilo lachgas (N2O)"), ("Levering", "Verzegeld, aan de deur"), ("Levertijd", "Grote steden meestal 30 tot 45 min"), ("Betalen", "Contant of Tikkie bij levering")]
+    return ('<div class="pf"><div class="pf-img"><img src="/assets/lachgastank-2kg.webp" srcset="/assets/lachgastank-2kg-300.webp 300w, /assets/lachgastank-2kg.webp 480w" sizes="(min-width: 768px) 300px, 70vw" width="480" height="640" alt="Verzegelde lachgastank 2KG van Lachgas Brabant" loading="lazy" decoding="async"></div>'
+            '<div><span class="badge">Uitgelicht</span><%s>Lachgastank 2KG</%s><p>Het compacte formaat voor een kleiner gezelschap. Je krijgt de tank verzegeld aan de deur, met de prijs vooraf bevestigd via WhatsApp.</p>'
+            '<dl class="pf-facts">%s</dl><div class="pf-ctas"><a class="btn btn-dark" href="/lachgas-tanks/2kg/">Bekijk de 2KG</a><a class="btn btn-wa" href="%s" target="_blank" rel="noopener">%s Bestel via WhatsApp</a></div>'
+            '<p class="pf-note">Uitsluitend voor 18+, met legitimatie aan de deur.</p></div></div>'
+            % (heading, heading, "".join("<div><dt>%s</dt><dd>%s</dd></div>" % (esc(k), esc(v)) for k, v in facts), wa_link("Hoi, ik wil graag een lachgastank 2KG bestellen."), ICON["wa"]))
+
+
 # --- componenten --------------------------------------------------------
 def header(path):
     links = "".join('<a href="%s"%s>%s</a>' % (h, ' aria-current="page"' if path.startswith(h) else "", t) for h, t in NAV)
@@ -113,8 +155,8 @@ def header(path):
             '<a class="logo" href="/" aria-label="%s, naar de homepage"><b>L</b><span>Lachgas <em>Brabant</em></span></a>'
             '<nav class="nav" aria-label="Hoofdmenu">%s</nav>'
             '<div style="display:flex;gap:10px;align-items:center"><a class="btn btn-wa btn-sm" href="%s" target="_blank" rel="noopener">%s<span>WhatsApp</span></a>'
-            '<details class="menu"><summary aria-label="Menu openen">%s</summary><nav class="menu-panel" aria-label="Mobiel menu">%s<a class="btn btn-wa" href="%s" target="_blank" rel="noopener">%s WhatsApp ons</a></nav></details></div>'
-            '</div></header>' % (BRAND, links, wa_link(), ICON["wa"], ICON["menu"], links, wa_link(), ICON["wa"]))
+            '<details class="menu"><summary aria-label="Menu openen">%s</summary>%s</details></div>'
+            '</div></header>' % (BRAND, links, wa_link(), ICON["wa"], ICON["menu"], mobile_menu(path)))
 
 
 def footer(regions, info_links, service_links):

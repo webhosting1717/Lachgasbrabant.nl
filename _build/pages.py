@@ -54,7 +54,7 @@ class Site:
         reg = section(sec_head("Bezorggebied", H["regions_h2"], H["regions_text"]) + cards([("/bezorggebied/%s/" % r["slug"], r["name"], r["card"], "Bekijk de regio") for r in self.regions], 4, "pin")
                       + '<div style="margin-top:22px;text-align:center"><a class="btn btn-dark" href="/bezorggebied/">Alle plaatsen in Noord-Brabant</a></div>')
         top = section(sec_head("Steden", H["cities_h2"], H["cities_text"]) + chips([self.place_link(s) for s in H["city_slugs"] if s in self.place_by], dark=True), alt=True)
-        tanks = section(sec_head("Assortiment", H["tanks_h2"], H["tanks_text"]) + products())
+        tanks = section(sec_head("Assortiment", H["tanks_h2"], H["tanks_text"]) + C.product_feature() + products())
         how = section(sec_head("Zo werkt het", H["steps_h2"], H["steps_text"]) + steps(H["steps"]), alt=True)
         why = section(sec_head("Waarom Lachgas Brabant", H["why_h2"], H["why_text"]) + cards([(h, t, d, m) for h, t, d, m in H["why_cards"]], 3, "shield"))
         info_items = [("/informatie/%s/" % h["slug"], h["h1"], h["description"], "Bekijk het thema") for h in self.topic_hubs] + [("/informatie/%s/" % a["slug"], a["h1"], a["description"]) for a in self.articles if a["slug"] in H["info_slugs"]]
@@ -179,7 +179,7 @@ class Site:
         T = self.tanks["INDEX"]
         rows = "".join("<tr>%s</tr>" % "".join("<td>%s</td>" % c for c in r) for r in T["table"])
         body = (page_head([("Home", "/"), ("Lachgas tanks", None)], "Assortiment", T["h1"], T["lead"])
-                + section('<div class="prose">%s</div>' % para(T["intro"]) + products())
+                + section('<div class="prose">%s</div>' % para(T["intro"]) + C.product_feature("h2") + products())
                 + section(sec_head("Vergelijken", T["table_h2"], T["table_text"]) + '<div class="tbl-wrap"><table class="tbl"><thead><tr>%s</tr></thead><tbody>%s</tbody></table></div>' % ("".join("<th>%s</th>" % esc(h) for h in T["table_head"]), rows), alt=True)
                 + section('<div class="narrow">' + sec_head("Vragen", "Veelgestelde vragen over onze tanks") + faq(T["faq"]) + "</div>") + cta())
         self.add(path="/lachgas-tanks/", title=T["title"], description=T["description"], body=body, priority="0.9",
@@ -188,12 +188,14 @@ class Site:
     def tank_page(self, t):
         path = "/lachgas-tanks/%s/" % t["slug"]
         crumbs = [("Home", "/"), ("Lachgas tanks", "/lachgas-tanks/"), (t["h1"], None)]
-        facts = '<aside class="hero-card" style="position:sticky;top:84px"><h2>%s</h2><dl>%s</dl><a class="btn btn-wa" href="%s" target="_blank" rel="noopener">%s Bestel via WhatsApp</a></aside>' % (
+        photo = ('<div class="pf-img"><img src="/assets/lachgastank-2kg.webp" srcset="/assets/lachgastank-2kg-300.webp 300w, /assets/lachgastank-2kg.webp 480w" sizes="200px" width="480" height="640" alt="Verzegelde lachgastank 2KG van Lachgas Brabant" loading="lazy" decoding="async"></div>') if t["slug"] == "2kg" else ""
+        facts = '<aside class="hero-card" style="position:sticky;top:84px">' + photo + '<h2>%s</h2><dl>%s</dl><a class="btn btn-wa" href="%s" target="_blank" rel="noopener">%s Bestel via WhatsApp</a></aside>' % (
             esc(t["h1"]), "".join("<div><dt>%s</dt><dd>%s</dd></div>" % (esc(k), esc(v)) for k, v in t["facts"]), C.wa_link("Hoi, ik wil graag een %s bestellen." % t["h1"].lower()), ICON["wa"])
         body = (page_head(crumbs, "Lachgastank", t["h1"], t["lead"]) + section('<div class="two">%s%s</div>' % (article_body(t["sections"], t.get("note"), with_toc=False), facts))
                 + section('<div class="narrow">' + sec_head("Vragen", "Veelgestelde vragen over de %s" % t["h1"].lower()) + faq(t["faq"]) + "</div>", alt=True)
                 + section(sec_head("Andere formaten", "Vergelijk met de andere tanks") + chips([("/lachgas-tanks/%s/" % x["slug"], x["h1"]) for x in self.tanks["TANKS"] if x["slug"] != t["slug"]] + [("/lachgas-tanks/", "Alle tanks vergelijken")])) + cta())
         schema = {"@context": "https://schema.org", "@type": "Product", "name": t["h1"], "description": t["description"], "url": C.SITE + path, "brand": {"@type": "Brand", "name": C.BRAND},
+                  **({"image": C.SITE + "/assets/lachgastank-2kg.webp"} if t["slug"] == "2kg" else {}),
                   "offers": {"@type": "Offer", "availability": "https://schema.org/InStock", "priceCurrency": "EUR", "url": C.SITE + path, "seller": {"@id": C.SITE + "/#business"}, "priceSpecification": {"@type": "PriceSpecification", "priceCurrency": "EUR", "description": "Prijs op aanvraag via WhatsApp"}}}
         self.add(path=path, title=t["title"], description=t["description"], body=body, priority="0.8",
                  schemas=[C.crumbs_schema([("Home", "/"), ("Lachgas tanks", "/lachgas-tanks/"), (t["h1"], path)]), schema, C.faq_schema(t["faq"])])
